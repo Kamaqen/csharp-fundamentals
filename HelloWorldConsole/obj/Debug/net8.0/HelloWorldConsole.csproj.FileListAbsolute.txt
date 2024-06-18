@@ -1,0 +1,14 @@
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/bin/Debug/net8.0/HelloWorldConsole
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/bin/Debug/net8.0/HelloWorldConsole.deps.json
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/bin/Debug/net8.0/HelloWorldConsole.runtimeconfig.json
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/bin/Debug/net8.0/HelloWorldConsole.dll
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/bin/Debug/net8.0/HelloWorldConsole.pdb
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.AssemblyInfoInputs.cache
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.AssemblyInfo.cs
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.csproj.CoreCompileInputs.cache
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.dll
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/refint/HelloWorldConsole.dll
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.pdb
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/HelloWorldConsole.genruntimeconfig.cache
+/Users/jorgecapcha/Documents/NEELE-VAT/csharp/fundamentals/HelloWorldConsole/obj/Debug/net8.0/ref/HelloWorldConsole.dll
