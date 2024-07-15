@@ -1,1 +1,6 @@
-/.vscode
+HelloWorld/bin/
+HelloWorld/obj/
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+*.sln
