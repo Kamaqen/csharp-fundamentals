@@ -1,5 +1,5 @@
-HelloWorld/bin/
-HelloWorld/obj/
+HelloWorldConsole/bin/
+HelloWorldConsole/obj/
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
