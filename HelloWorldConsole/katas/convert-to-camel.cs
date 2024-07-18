@@ -1,31 +1,34 @@
-using System;
-using System.Collections.Generic;
 using System.Text;
 
-public class Kata
+namespace HelloWorldConsole.Katas
 {
-    public static string ToCamelCase(string str)
+    public class Kata
     {
-        if (string.IsNullOrEmpty(str))
-            return str;
-
-        // Split the input string by '-' or '_'
-        var words = str.Split(new char[] { '-', '_' });
-        var sb = new StringBuilder(words[0]);
-
-        // Process each word, capitalizing the first letter if not the first word
-        for (int i = 1; i < words.Length; i++)
+        public static string ToCamelCase(string str)
         {
-            if (words[i].Length > 0)
+            if (string.IsNullOrEmpty(str))
+                return str;
+
+            // Split the input string by '-' or '_'
+            var words = str.Split(new char[] { '-', '_' });
+            var sb = new StringBuilder(words[0]);
+
+            // Process each word, capitalizing the first letter if not the first word
+            for (int i = 1; i < words.Length; i++)
             {
-                sb.Append(char.ToUpper(words[i][0]));
-                if (words[i].Length > 1)
+                if (words[i].Length > 0)
                 {
-                    sb.Append(words[i].Substring(1));
+                    sb.Append(char.ToUpper(words[i][0]));
+                    if (words[i].Length > 1)
+                    {
+                        sb.Append(words[i].Substring(1));
+                    }
                 }
             }
-        }
 
-        return sb.ToString();
+            return sb.ToString();
+        }
     }
 }
+
+// https://www.codewars.com/kata/517abf86da9663f1d2000003/train/csharp
