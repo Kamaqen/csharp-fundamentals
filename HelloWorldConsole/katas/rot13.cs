@@ -1,16 +1,31 @@
+using System.Text;
+
 namespace HelloWorldConsole.Katas
 {
     public class Solution
     {
-        public static char Rot13(string message)
+        public static string Rot13(string message)
         {
-            char[] alphabet = new char[26];
-            for (int i = 0; i < 26; i++)
+            var encodedMessage = new StringBuilder();
+
+            foreach (char c in message)
             {
-                alphabet[i] = (char)('A' + i);
+                if (char.IsLetter(c))
+                {
+                    char offset = char.IsUpper(c) ? 'A' : 'a';
+                    char rotatedChar = (char)(((c - offset + 13) % 26) + offset);
+                    encodedMessage.Append(rotatedChar);
+                }
+                else
+                {
+                    // If it's not a letter, just append the character as is.
+                    encodedMessage.Append(c);
+                }
             }
-            Console.WriteLine((char)(alphabet[2] + 13));
-            return (char)(alphabet[2] + 13);
+
+            Console.WriteLine(encodedMessage.ToString());
+
+            return encodedMessage.ToString();
         }
     }
 }
