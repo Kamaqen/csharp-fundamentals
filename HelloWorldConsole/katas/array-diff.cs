@@ -14,3 +14,5 @@ public class Kata
         return a.Where(element => !setOfB.Contains(element)).ToArray();
     }
 }
+
+// https://www.codewars.com/kata/523f5d21c841566fde000009/train/csharp
