@@ -1,7 +1,5 @@
 namespace HelloWorldConsole.Katas
 {
-    using System;
-
     public class RemoveExclamation
     {
         public static string RemoveExclamationMarks(string s)
